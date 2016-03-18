@@ -26,6 +26,10 @@ int main(int argc, char *argv[])
     std::cout << "----- N=5 -----" << std::endl;
     m3.printWallList();
 
+    maze m4(20);
+    m4.randomizeMaze();
+    m4.printMaze(true);
+
 
 
     return 0;
